@@ -68,6 +68,19 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Script
         type='text/javascript'
         src='/startbootstrap-sb-admin-2/js/demo/chart-bar-demo.js'></Script>
+
+      {/* <!-- Page level plugins --> */}
+      <Script
+        type='text/javascript'
+        src='/startbootstrap-sb-admin-2/vendor/datatables/jquery.dataTables.min.js'></Script>
+      <Script
+        type='text/javascript'
+        src='/startbootstrap-sb-admin-2/vendor/datatables/dataTables.bootstrap4.min.js'></Script>
+
+      {/* <!-- Page level custom scripts --> */}
+      <Script
+        type='text/javascript'
+        src='/startbootstrap-sb-admin-2/js/demo/datatables-demo.js'></Script>
     </>
   );
 }
