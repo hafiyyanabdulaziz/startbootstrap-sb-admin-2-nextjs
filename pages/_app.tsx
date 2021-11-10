@@ -59,12 +59,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         src='startbootstrap-sb-admin-2/vendor/chart.js/Chart.min.js'></Script>
 
       {/* <!-- Page level custom scripts --> */}
-      {/* <Script
+      <Script
         type='text/javascript'
         src='/startbootstrap-sb-admin-2/js/demo/chart-area-demo.js'></Script>
       <Script
         type='text/javascript'
-        src='/startbootstrap-sb-admin-2/js/demo/chart-pie-demo.js'></Script> */}
+        src='/startbootstrap-sb-admin-2/js/demo/chart-pie-demo.js'></Script>
+      <Script
+        type='text/javascript'
+        src='/startbootstrap-sb-admin-2/js/demo/chart-bar-demo.js'></Script>
     </>
   );
 }
