@@ -1,3 +1,6 @@
+import BarChart from "../components/Charts/BarChart";
+import LineChart from "../components/Charts/LineChart";
+import PieChart from "../components/Charts/PieChart";
 import Layout from "../components/layout/layout";
 
 const Charts = () => {
@@ -27,7 +30,7 @@ const Charts = () => {
               </div>
               <div className='card-body'>
                 <div className='chart-area'>
-                  <canvas id='myAreaChart' />
+                  <LineChart />
                 </div>
                 <hr />
                 Styling for the area chart can be found in the
@@ -41,7 +44,7 @@ const Charts = () => {
               </div>
               <div className='card-body'>
                 <div className='chart-bar'>
-                  <canvas id='myBarChart' />
+                  <BarChart />
                 </div>
                 <hr />
                 Styling for the bar chart can be found in the
@@ -61,7 +64,7 @@ const Charts = () => {
               {/* Card Body */}
               <div className='card-body'>
                 <div className='chart-pie pt-4'>
-                  <canvas id='myPieChart' />
+                  <PieChart />
                 </div>
                 <hr />
                 Styling for the donut chart can be found in the

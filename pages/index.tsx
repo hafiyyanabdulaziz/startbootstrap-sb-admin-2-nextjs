@@ -1,3 +1,5 @@
+import LineChart from "../components/Charts/LineChart";
+import PieChart from "../components/Charts/PieChart";
 import Layout from "../components/layout/layout";
 
 const Home = () => {
@@ -154,7 +156,7 @@ const Home = () => {
               {/* Card Body */}
               <div className='card-body'>
                 <div className='chart-area'>
-                  <canvas id='myAreaChart' />
+                  <LineChart />
                 </div>
               </div>
             </div>
@@ -198,7 +200,7 @@ const Home = () => {
               {/* Card Body */}
               <div className='card-body'>
                 <div className='chart-pie pt-4 pb-2'>
-                  <canvas id='myPieChart' />
+                  <PieChart />
                 </div>
                 <div className='mt-4 text-center small'>
                   <span className='mr-2'>
